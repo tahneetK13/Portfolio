@@ -43,7 +43,7 @@ const NavBar = () => {
       <div className="container mx-auto grid h-20 grid-cols-12 items-center justify-between">
         <Logo className="col-span-2 " />
         <ul className=" order-2 col-span-full
-           justify-between md:col-span-7 hidden md:flex"">
+           justify-between md:col-span-7 hidden md:flex">
           {links.map(({ id, link }) => (
             <li
               key={id}
