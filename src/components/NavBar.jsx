@@ -88,7 +88,7 @@ const NavBar = () => {
           </ul>
         )}
 
-        <SocialLinks className="px-6 place-content-en col-span-3 col-start-10 sm:col-start-11 md:order-3 md:col-start-11 " />
+        <SocialLinks className="pl-6 place-content-en col-span-3 col-start-10 sm:col-start-11 md:order-3 md:col-start-11 " />
       </div>
     </nav>
   );
