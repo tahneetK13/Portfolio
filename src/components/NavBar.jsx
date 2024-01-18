@@ -10,22 +10,26 @@ const NavBar = () => {
   const links = [
     {
       id: 1,
-      link: "about",
+      link: "home",
     },
     {
       id: 2,
-      link: "blogs",
+      link: "about",
     },
     {
       id: 3,
-      link: "portfolio",
+      link: "blogs",
     },
     {
       id: 4,
-      link: "Resume",
+      link: "portfolio",
     },
     {
       id: 5,
+      link: "Resume",
+    },
+    {
+      id: 6,
       link: "contact",
     },
   ];
@@ -39,7 +43,7 @@ const NavBar = () => {
       <div className="container mx-auto grid h-20 grid-cols-12 items-center justify-between">
         <Logo className="col-span-2 " />
         <ul className=" order-2 col-span-full
-           flex justify-between md:col-span-7">
+           justify-between md:col-span-7 hidden md:flex"">
           {links.map(({ id, link }) => (
             <li
               key={id}
